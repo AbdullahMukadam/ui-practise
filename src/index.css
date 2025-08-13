@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'SK-Modernist';
+  src: url('/fonts/Sk-Modernist-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-modernist: "SK-Modernist", "sans-serif"; 
+  
+}
+
+.bg-custom-gradient {
+  background: linear-gradient(141deg,rgba(39, 40, 41, 1) 58%, rgba(255, 60, 0, 0.51) 100%);
+}
+
+.bg-faq-gradient {
+  background: linear-gradient(141deg,rgb(0, 0, 0) 58%, rgba(255, 60, 0, 0.51) 100%);
+}
+
+.bg-cta-gradient{
+  background: linear-gradient(137deg,rgba(11, 11, 11, 0.91) 47%, rgba(255, 60, 0, 0.48) 100%);
+}
+
+.bg-cta-radialgradient{
+  background-image: radial-gradient(circle at 50% 40%);
+}
+
+.html,body{
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
