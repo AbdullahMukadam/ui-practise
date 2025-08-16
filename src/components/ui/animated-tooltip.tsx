@@ -42,7 +42,7 @@ export const AnimatedTooltip = ({
   return (
     // Added a div to wrap the map and apply the className prop
     <div className={`flex flex-row items-center justify-center ${className}`}>
-      {items.map((item, idx) => (
+      {items.map((item) => (
         <div
           className="group relative -mr-4" // Adjusted margin for closer packing if desired
           key={item.name}

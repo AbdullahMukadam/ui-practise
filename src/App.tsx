@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Navbar from './components/Common/Navbar'
 import LandingPage from './components/LandingPage'
 import CTA from './components/CTA'

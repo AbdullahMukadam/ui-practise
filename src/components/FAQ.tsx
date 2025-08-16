@@ -1,4 +1,4 @@
-import React from 'react'
+
 import FAQComponent from './faqComp'
 import Footer from './Common/Footer'
 
