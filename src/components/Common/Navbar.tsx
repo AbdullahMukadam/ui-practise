@@ -29,7 +29,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      <div className='hidden md:flex w-[50%] pl-2 md:pl-10 items-center justify-start gap-2 md:gap-6 overflow-hidden'>
+      <div className='hidden md:flex w-[40%] pl-2 md:pl-10 items-center justify-start gap-2 md:gap-6 overflow-hidden'>
         <a className='text-white font-semibold text-sm md:text-base whitespace-nowrap' href="/">Home</a>
         <a className='text-white font-thin text-sm md:text-base whitespace-nowrap' href="/services">Services</a>
         <a className='text-white font-thin text-sm md:text-base whitespace-nowrap' href="/contsct">Contact Us</a>
@@ -47,7 +47,7 @@ export default function Navbar() {
       )}
 
       
-      <div className='w-[20%] md:w-[20%] hidden md:block'>
+      <div className='w-[20%] md:w-[18%] hidden md:block'>
         <button className='bg-[#FF541F] pl-5 pr-5 pt-2 pb-2 rounded-md text-white'>Login</button>
       </div>
     </div>
