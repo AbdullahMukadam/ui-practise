@@ -46,8 +46,8 @@ function FAQ() {
       <div className='w-full flex items-center justify-center z-50'>
         <FAQComponent />
       </div>
-      <div className='w-full mt-16 flex items-center justify-center'>
-        <div className=" w-[60%] relative overflow-hidden h-fit p-10 rounded-2xl bg-cta-gradient border-[1px] border-gray-700">
+      <div className='w-full mt-2 lg:mt-16 flex items-center justify-center'>
+        <div className=" w-[90%] lg:w-[60%] relative overflow-hidden h-fit p-10 rounded-2xl bg-cta-gradient border-[1px] border-gray-700">
           <div className='absolute -top-14 left-0' >
           <svg width="800" height="375" viewBox="0 0 1120 375" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect y="-310" width="1120" height="850" rx="10" fill="url(#paint0_radial_1_662)" fill-opacity="0.4" />
@@ -63,7 +63,7 @@ function FAQ() {
           </svg>
           </div>
 
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto w-[90%] md:max-w-7xl px-1 md:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center z-50">
               <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
                 Ready to Design Smarter?
